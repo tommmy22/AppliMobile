@@ -2,12 +2,34 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Page from './Page';
+import Arriv from './Arriv';
+import Login from './Login';
 import reportWebVitals from './reportWebVitals';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from 'react-router-dom'
+  
+
+const Root = () => {
+  return(
+    <Router>
+      <Routes>
+        <Route path='/page' element={<Page />} />
+        <Route path='/arriv' element={<Arriv />} />
+        <Route path='/login' element={<Login />} /> 
+        <Route path='/' element={<App />}/>
+      </Routes>
+    </Router>
+  )
+}
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Root />,
   document.getElementById('root')
 );
 
