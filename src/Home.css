@@ -1,0 +1,83 @@
+.HomeCardJournee{
+    width: 900px;
+    height : 700px; 
+    margin : 100px;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.HomeCardMatch{
+    width: 850px;
+    height : 100px; 
+    margin : 20px;
+    background-color: rgba(255, 0, 0, 0.6) !important;
+}
+
+.HomeCardMatch:hover {
+    background-color: rgba(255, 113, 113, 0.6) !important;
+}
+
+.HomeCardMatch2{
+    width: 850px;
+    height : 100px; 
+    margin : 20px;
+    background-color: rgba(255, 0, 0, 0.6) !important;
+    justify-content: start;
+}
+
+.BoxCardJournee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Navbar{
+    background-color: white !important;
+}
+
+.ButtonNavBarLogin{
+    color: black !important;
+}
+
+.ButtonNavbarIcon{
+    color: black !important;
+}
+
+.NewsNavbar{
+    color: black !important;
+}
+
+.EquipeMatch{
+    color: red !important; 
+}
+
+.logoEquipe{
+    text-align: left;
+    height: 10%;
+    width: 10%;
+}
+
+.boxCardMatch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textMatch {
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+.textLinkMatch {
+    text-decoration: none;
+}
+.ListeDeroulante {
+    width: 250px;
+    margin: 5px;
+}
+
+.ListederoulanteBox{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
